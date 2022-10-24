@@ -8,7 +8,7 @@ body, html {
     background-color: rgb(53, 53, 53);
 }
 header {
-   background-color: rgb(88, 87, 87);
+   background-color: rgb(131, 129, 129);
     
 }
 header > h1 {
@@ -27,13 +27,14 @@ menu > ul > li > a {
     display: block;
     padding: 10px;
     text-decoration: none;
-    background-color: rgb(80, 78, 78);
+    background-color: rgb(99, 99, 99);
     text-align: center;
     color: white;
     border-top: 1px solid gray;
+    border-radius: 3px;
 }
 menu > ul > li > a:hover {
-    background-color: gray;
+    background-color: rgb(48, 47, 47);
 }
 main {
     width:90vw ;
@@ -53,7 +54,7 @@ article > p{
     text-indent: 20px;
 }
 i#burguer{
-    background-color: rgb(158, 154, 154);
+     background-color: rgb(48, 46, 46);
     color: white;
     display: block; 
     text-align: center;
@@ -62,5 +63,5 @@ i#burguer{
 }
 
 i#burguer:hover {
-    background-color: rgb(48, 46, 46);
+   background-color: rgb(87, 86, 86);
 }
