@@ -2,12 +2,53 @@
 * {
     margin: 0px;
     padding: 0px;
-    color: white;
+    font-family: Arial, Helvetica, sans-serif;
     }
 body, html {
-    background-color: black;
+    background-color: rgb(53, 53, 53);
 }
 header {
-    background-image: linear-gradient(to bottom, white, rgb(63, 62, 62));
+   background-color: rgb(88, 87, 87);
     
+}
+header > h1 {
+    color: white;
+    padding: 10px;
+    text-align: center;
+
+}
+menu {
+    display: block;
+}
+menu > ul {
+    list-style-type: none;
+}
+menu > ul > li > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgb(80, 78, 78);
+    text-align: center;
+    color: white;
+    border-top: 1px solid gray;
+}
+menu > ul > li > a:hover {
+    background-color: gray;
+}
+main {
+    width:90vw ;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+article > h2 {
+    padding-bottom: 20px;
+
+}
+article > p{
+    text-align: justify;
+    margin-bottom: 10px;
+    text-indent: 20px;
 }
