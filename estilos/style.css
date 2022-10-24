@@ -1,11 +1,13 @@
 @charset "UTF-8";
-body {
-    background-color: black;
+* {
+    margin: 0px;
+    padding: 0px;
     color: white;
+    }
+body, html {
+    background-color: black;
 }
-a {
-    color: aliceblue;
-    display: flexbox;
-    text-decoration: none;
-
+header {
+    background-image: linear-gradient(to bottom, white, rgb(63, 62, 62));
+    
 }
